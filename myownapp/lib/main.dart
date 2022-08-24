@@ -21,8 +21,16 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.amber,
         ),
         drawer: Drawer(
+          
           backgroundColor: Colors.amberAccent,
-          child: Text("This is a profile appliction", style: TextStyle(fontFamily: 'aboreto'),),
+          child: Container( 
+            margin: EdgeInsets.symmetric(vertical: 350, horizontal: 50), 
+            decoration: BoxDecoration(
+
+            ),
+            
+            
+            child :Text("This is a profile appliction", style: TextStyle(fontFamily: 'aboreto'),)),
           
         ),
         body: ListView(
